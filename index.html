@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozora Hotel Smartphone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+            <div class="first">
+                <img src="BG/bg1-02.png" alt="">
+                <h1>大空ホテル<pre>カンダ神保町</pre></h1>
+                <p>「宿泊者様専用」大浴場などの設備や充実した<br>サービスでファミリーやグループでゆったりと<br>お過ごしいただけます。</p>
+                <div class="display">
+                    <img src="BG/display.png" alt="">
+                </div>
+            </div>
+
+            <div class="second">
+                <img src="BG/bg2-02.png" alt="">
+
+                <div class="title2">
+                    <img src="Title/title 2-02.png" alt="">
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="Family/Fam1-03.png" alt="">
+                        <p>大空リゾート®からは無料のシャトルバスによるアクセスも可能です。 ホテルに到着したらフロントでチェックインをお済ませ下さい。</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Family/Fams2-03.png" alt="">
+                        <p>最上階の7階には、宿泊者限定でご利用できる大浴場を用意。海を一望できる大浴場で、ご家族みんなで癒やされて下さい。 <br><br>※小学1年生以上の方は、男女別のご利用とさせていただきます。</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Family/Fams3-03.png" alt="">
+                        <p>ホテルの目の前には市内唯一の総合公園「浦安市総合公園」があり、 海を眺めながら芝生の上で遊んだりくつろいだりできます。</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Family/Fams4-03.png" alt="">
+                        <p>館内には、お子様連れのご家族はもちろん、さまざまな年代の方が快適に過ごしていただける施設やサービスをご用意しています。</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Family/Fams5-03.png" alt="">
+                        <p>客室は全室広々設計で、ファミリーやグループみんなでくつろげます。また、全室がバス・トイレ別で、洗い場付きのお風呂はお子様がいるファミリーにご好評です。</p>
+                    </div>
+                </div>
+            
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+            </div>
+            <div class="buttonbg1">
+                <img src="BG/buttonbg1-02.png" alt="">
+                <div class="button1">
+                    <img src="Button/button1.png" alt="">
+                </div>
+            </div>
+
+            <div class="buttonbg2">
+                <img src="BG/buttonbg2-02.png" alt="">
+                <div class="button2">
+                    <img src="Button/button1.png" alt="">
+                </div>
+            </div>
+            </div>
+
+            <div class="third">
+                <img src="BG/bg3-02.png" alt="">
+                <div class="title3">
+                    <img src="Title/title 3-02.png" alt="">
+                </div>
+                <p>
+                    大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。
+                    全室がバス・トイレ独立型で小さなお子様と 一緒の宿泊にも安心。
+                    認定部屋のプラナフォースルームは靴が脱げるお部屋でお子様と一緒にお寛ぎいただけます
+                </p>
+
+                <div class="grid-container">
+                    <div class="grid-item">
+                      <img src="Family/Family 1.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                      <img src="Family/Family 2.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                      <img src="Family/Family 3.png" alt="">
+                    </div>
+                    <div class="grid-item">
+                      <img src="Family/Family 4.png" alt="">
+                    </div>
+                </div>
+
+                <div class="buttonbg3">
+                    <img src="BG/buttonbg3-02.png" alt="">
+                    <div class="button3">
+                        <img src="Button/button3-02.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            loop: true,
+        
+            // If we need pagination
+            pagination: {
+            el: '.swiper-pagination',
+            },
+        
+            // Navigation arrows
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        
+            // And if we need scrollbar
+            scrollbar: {
+            el: '.swiper-scrollbar',
+            },
+        });
+</script>
+
+<script>
+        // Wait for the DOM to load
+        document.addEventListener('DOMContentLoaded', function () {
+        // Initialize Swiper
+        var mySwiper = new Swiper('.swiper', {
+            // Optional: Customize the slide transition and other options here
+            // For example:
+            // direction: 'horizontal', // Slide direction ('horizontal' or 'vertical')
+            // loop: true,             // Enable loop mode
+            // autoplay: {             // Autoplay settings
+            //   delay: 3000,          // Delay between slides in milliseconds
+            //   disableOnInteraction: false // Allow autoplay to continue after user interaction
+            // },
+            
+            // Add more options as needed
+            
+            // Optional: Pagination settings (if you want to show pagination bullets)
+            pagination: {
+            el: '.swiper-pagination',
+            },
+            
+            // Optional: Navigation settings (if you want to show next/prev buttons)
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        });
+        });
+</script>
+
+</body>
+</html>

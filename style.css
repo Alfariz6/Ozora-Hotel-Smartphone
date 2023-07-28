@@ -187,14 +187,13 @@ img {
     width: 300px;
     height: 65px;
     position: relative;
-    bottom: 1370px;
     margin-left: 40px;
+    top: 35px;
 }
 
 .third p {
     color: brown;
     position: relative;
-    bottom: 1370px;
     padding: 17px;
     text-align: center;
     font-size: 12px; 
@@ -208,7 +207,6 @@ img {
     padding: 10px;
     justify-content: center; 
     position: relative;
-    bottom: 1350px;
   }
   
   .grid-item {
@@ -225,7 +223,6 @@ img {
 
 .buttonbg3 img {
     position: relative;
-    bottom: 1320px;
 }
 
 .button3 img {
@@ -233,5 +230,45 @@ img {
     width: 300px;
     height: 50px;
     position: relative;
-    bottom: 1410px;
+    bottom: 90px;
+}
+
+
+
+.fourth {
+    background-image: url(BG/bg4-02.png);
+    margin: auto;
+    margin-top: 0;
+    background-size: 375px 808px;
+    height: 808px;
+    width: 375px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: grid;
+}
+
+
+.fifth {
+    background-image: url(BG/bg5-02.png);
+    margin: auto;
+    margin-top: 0;
+    background-size: 375px 685px;
+    height: 685px;
+    width: 375px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: grid;
+}
+
+
+.sixth {
+    background-image: url(BG/bg6-02.png);
+    margin: auto;
+    margin-top: 0;
+    background-size: 375px 504px;
+    height: 685px;
+    width: 504px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: grid;
 }

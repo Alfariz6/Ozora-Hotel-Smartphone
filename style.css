@@ -22,15 +22,18 @@ img {
 /*----------------1------------------*/
 
 .first {
+    background-image: url(BG/bg1-02.png);
     margin: auto;
     height: 234,8293px;
     width: 375px;
+    background-size: 375px 234,8293px;
     background-position-x: center;
     background-repeat: no-repeat;
     display: grid; 
     isolation: isolate;
     place-content: center;
     text-align: center;
+
 }
 
 
@@ -40,6 +43,7 @@ img {
 }
 
 .first h1 {
+    z-index: 1;
     font-size: 30px;
     font-family: 'Kaishodebold', sans-serif;
     color: white;
@@ -67,19 +71,26 @@ img {
     top: -240px;
 }
 
-.display img{
-    margin-top: -180px;
-    position: relative;
-    width: 375px;
+.display {
+    background-image: url(BG/display.png);
+    margin-top: 0;
+    margin: auto;
     height: 375px;
+    width: 375px;
+    background-size: 375px 375px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: grid; 
 }
 
 /*----------------------2-------------------*/
 
 .second {
     margin: auto;
+    margin-top: 0;
     height: 727,2286px;
     width: 375px;
+    background-image: url(BG/bg2-02.png);
     background-position-x: center;
     background-repeat: no-repeat;
     display: grid; 
@@ -92,7 +103,7 @@ img {
     margin-left: 45px;
     width: 300px;
     height: 74px;
-    bottom: 700px;
+    top: 40px;
 }
 
 .second .swiper {
@@ -100,7 +111,7 @@ img {
     max-height: 400px;
     position: relative;
     margin-top: 0;
-    bottom: 700px;
+    top: 40px;
 }
 
 .second .swiper-slide {
@@ -131,7 +142,7 @@ img {
 .buttonbg1 img {
     position: relative;
     margin-top: 0;
-    bottom: 700px;
+    top: 60px;
 }
 
 .button1 img {
@@ -141,13 +152,12 @@ img {
     margin-left: 105px;
     width: 170px;
     height: 50px;
-    bottom: 775px;
+    top: -15px;
 }
 
 .buttonbg2 img {
     position: relative;
     margin-top: 0;
-    bottom: 770px;
 }
 
 .button2 img {
@@ -157,22 +167,22 @@ img {
     margin-left: 105px;
     width: 170px;
     height: 50px;
-    bottom: 847px;
+    top: -75px;
 }
 
 
 /*-------------------3------------------*/
 
 .third {
+    background-image: url(BG/bg3-02.png);
     margin: auto;
+    margin-top: 0;
+    background-size: 375px 1415px;
     height: 1415px;
     width: 375px;
     background-position-x: center;
     background-repeat: no-repeat;
-    display: grid; 
-    isolation: isolate;
-    position: relative;
-    bottom: 820px;
+    display: grid;
 }
 
 .title3 img {
